@@ -1,13 +1,13 @@
 
-div.container {
+.container {
   text-align: center;
 }
 
-div.left {
+.left {
   text-align: left;
 }
 
-div.right {
+.right {
   text-align: right;
 }
 
