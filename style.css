@@ -1,13 +1,18 @@
 
-.container {
-  text-align: center;
+.container{
+display:flex;
+flex-direction:row;
+justify-content: center; 
 }
 
-.left {
-  text-align: left;
+.img{
+  margin: 20px;
+ flex: 1;
+  
 }
 
-.right {
-  text-align: right;
+.text{
+  margin: 20px;
+ flex: 1;
+  width:50px;
 }
-
