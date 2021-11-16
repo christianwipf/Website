@@ -1,34 +1,106 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Web Page</title>
-	  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+
+* {
+  box-sizing: border-box;
+}
+
+/*includes padding and border in weight and height
+*/
+
+/*.container,.column,.papers{
+border-style: solid;
+}*/
+
+
+.container{
+display:table;
+width:80%;
+ margin:auto;
+}
+
+.column {
+  float: left;
+}
+
+.text {
+  width: 65%;
+}
+
+.photo {
+  width: 20%;
+  margin-left: 55px;
+}
+
+.papers{
+width:80%;
+margin:auto;
+}
+
+</style>
+
+
   </head>
   <body>
     
 	 <div class="container" >
-	  <div class="text" >
+	  <div class="column text" >
 	    
 	<h1>Christian Wipf</h1>
 	
-	<p>I am a fixed term lecturer in Economics at the <a href="https://www.essex.ac.uk/people/WIPFC51308">University of Essex</a>. 
-	I obtained my PhD at the University of Bern in 2020. For more details see my <a href="cv.pdf">CV</a> and my <a href="res.pdf">resume</a>.
+	<p>I am a fixed term lecturer in Economics at the University of Essex. 
+	I obtained my PhD at the University of Bern in 2020. 
 	</p>
    
-	<p>I am a macroeconomist with a special interest in monetary economics, banking and financial economics. I have recently worked on payment systems, narrow banking and CBDC proposals, financial stability, optimal long-run inflation targets, and inflation and monetary policy transmission since the recent financial crisis. For more details see my 
-	<a href="/research">research</a> page.	<p>
+	<p> My research interests are in macroeconomics, monetary economics, banking and financial economics.<p> 
 
-	<p>Feel free to contact me at christian.wipf[at]protonmail.com<p>
+	<p>I have recently worked on payment systems, narrow banking and CBDC proposals, optimal inflation targets, 
+	and monetary policy transmission since the Great Financial Crisis. 
+	<p>
+
+	<p>Please see  my <a href="cv.pdf">CV</a> and my <a href="res.pdf">resume</a> for more details.<p>
 		
 	    </div>   
 
-	   <div class="img">
+	   <div class="column photo">
 	<img src="1.jpg" 
-    	height="300"/>
+    	height="300" />
 	   </div>   
 	 </div>   
 
+ <div class="papers" >
+     
+<h2>Research</h2>
+
  
+<p> <q>Should Banks Create Money? </q>, <a href="paper1.pdf">pdf</a>
+ 	<ul style="list-style-type:circle;">
+  	<li> why fractional reserve banking is economically useful and what these benefits are worth against alternatives like 100% reserves</li>
+  	</ul> 
+<p>
+
+<p><q>Liquidity, the Mundell-Tobin Effect, and the Friedman Rule</q> (with Lukas Altermatt), revise and resubmit <i>European Economic Review</i>, <a href="paper1.pdf">pdf</a></li>
+  <ul style="list-style-type:circle;">
+  	<li> why it can be optimal to have long-run inflation targets above the deflationary prescription of the Friedman rule</li>
+  	</ul> 
+
+<p><q>Opaqueness and Optimal Intermediary Financing</q> (with Kumar Rishabh), <a href="paper3.pdf">pdf</a></li>
+  <ul style="list-style-type:circle;">
+  	<li> why banks hold so many mortgages and what this implies for regulation</li>
+  	</ul> 
+<p> 
+
+<p><q>The Quantity Theory and Inflation since the Great Financial Crisis</q>, <a href="proposal.pdf">pdf</a></li>
+  <ul style="list-style-type:circle;">
+  	<li> how low and stable inflation since the recent financial crisis can be reconciled with record low interest rates and massively expanded central bank balance sheets </li>
+  	</ul> 
+<p> 
+
+
+
+         </div> 
   </body>
   
 </html>
